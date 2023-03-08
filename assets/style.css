@@ -41,3 +41,13 @@
   padding-top: 10% !important;
   padding-bottom: 5% !important;
 }
+
+.slide_1_image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/slide_1.jpg"); /* The image used */
+}
+
+.slide_2_image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/slide_3.jpg"); /* The image used */
+}
