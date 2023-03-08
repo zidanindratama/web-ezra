@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap");
+
+:root {
+  --orange-color: rgb(255, 166, 0);
+}
+
+.navbar_logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.hero_section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/hero.jpg"); /* The image used */
+  height: 98vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero_title {
+  color: var(--orange-color) !important;
+  padding-top: 30%;
+}
+
+.hero_description {
+  color: white;
+  width: 50%;
+}
+
+.carousel_image {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.carousel_title {
+  padding-top: 10% !important;
+  padding-bottom: 5% !important;
+}
